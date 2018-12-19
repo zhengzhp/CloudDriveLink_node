@@ -1,0 +1,108 @@
+[2018-12-18T17:57:51.228] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":200,"data":{"name":"test","date":"2018-12-18T09:57:51.228Z"}}
+*************** response log end ***************
+
+[2018-12-18T18:08:19.750] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  ::1
+request query:  {}
+response time: 5
+response status: 200
+response body: 
+{"code":200,"data":{"name":"test","date":"2018-12-18T10:08:19.744Z"}}
+*************** response log end ***************
+
+[2018-12-18T22:53:42.043] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  ::1
+request query:  {}
+response time: 34
+response status: 200
+response body: 
+{"code":200,"data":{"name":"test","date":"2018-12-18T14:53:42.011Z"}}
+*************** response log end ***************
+
+[2018-12-18T23:04:21.226] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /tes
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-12-18T23:04:35.812] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"code":200,"data":{"name":"test","date":"2018-12-18T15:04:35.811Z"}}
+*************** response log end ***************
+
+[2018-12-18T23:05:01.499] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-12-18T23:06:33.766] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  ::1
+request query:  {}
+response time: undefined
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-12-18T23:08:16.707] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-12-18T23:11:42.460] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
