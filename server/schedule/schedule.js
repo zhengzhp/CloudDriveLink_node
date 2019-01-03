@@ -6,7 +6,7 @@ const query = require('./query')
 // rule.minute = times
 
 function scheduleGetId() {
-  schedule.scheduleJob('1 * 1-23 * * *', () => {
+  schedule.scheduleJob('1 1 1-23 * * *', () => {
     query.insertGroupId()
   })
 }
