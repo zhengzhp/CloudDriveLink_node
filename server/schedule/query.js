@@ -53,9 +53,7 @@ function parseParam(param, key) {
     //   paramStr += `&${parseParam(this, k)}`
     // })
     // primitive https://www.jianshu.com/p/9319e39dae0f
-    let t = function () {
-      return this
-    }
+    let t = function () { return this }
     // 通过call返回参数类型对象内部的原始值 [[PrimitiveValue]]
     Object.keys(param).forEach((i) => {
       var k = key == null ? i : key + (param instanceof Array ? `[${i}]` : `.${i}`)

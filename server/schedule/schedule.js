@@ -14,5 +14,6 @@ function scheduleGetId() {
 // console.log(getGroup.connectionDB)
 query.connectionDB(async () => {
   console.log('连接成功')
+  query.insertGroupId()
   scheduleGetId()
 })
